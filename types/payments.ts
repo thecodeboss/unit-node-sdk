@@ -171,6 +171,13 @@ export interface BookPayment {
     } & BasePaymentRelationships
 }
 
+export interface BulkPayments {
+    /**
+     * Identifier of the bulk payments resource.
+     */
+    bulkId: string;
+}
+
 export interface WirePayment {
     /**
      * Identifier of the Wire payment resource.
